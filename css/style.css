@@ -1,0 +1,783 @@
+/******* BLKLST ********/
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/******************** HTML style ************************/
+
+body{
+	background-color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: #000;
+}
+
+a{
+	text-decoration: none;
+}
+
+/***** HOME *****/
+
+/********************** Layout *************************/
+
+#nav-top, #footer{
+	background-color: #000;
+	color: #fff;
+}
+
+.wrapper{
+	width: 98%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+
+/************************ NAVIGACIJA **********************/
+
+
+.menu-icon{
+	width: 100%;
+	background: #000;
+	text-align: right;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: none;
+}
+
+#nav-top{
+	padding: 30px;
+}
+
+#nav-top ul{
+	list-style-type: none;
+	width: 80%;
+	float: right;
+	text-align: right;
+}
+
+#nav-top li{
+	display: inline;
+	margin-left: 50px;
+}
+
+#nav-top #branding{
+	float: left;
+	width: 20%;
+}
+
+#nav-top a{
+	color: #fff;
+	font-size: 15px;
+}
+
+#nav-top li a:hover{
+	border-top: 3px solid #fff;
+}
+
+#nav-top .current a{
+	border-top: 3px solid #fff;
+	font-weight: bold;
+}
+
+#nav-top #branding a{
+	font-weight: bold;
+}
+
+
+/************** pageHeader (Cover) *******************/
+
+#pageHeader{
+	height: 100vh;
+	background-image: url(../slike/cover5.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-bottom: 3px solid #000;
+}
+
+
+#pageHeader h1{
+	font-size: 50px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+#pageHeader p{
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#pageHeader a{
+	width: 20%;
+	display: block;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 10px;
+	color: #fff;
+	background-color: #000;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+
+
+
+/*************** Newsletter tab ***********************/
+
+#newsletter{
+	color: #fff;
+	background-color: #000;
+	padding: 20px;
+	margin-bottom: 40px;
+}	
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+}
+
+#newsletter input[type="email"]{
+	padding: 10px;
+	height: 35px;
+	width: 250px;
+}
+
+.button_1{
+	height: 35px;
+	background: #fff;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+.container{
+	max-width: 1400px;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+/******************* Index MAIN ****************/
+
+#content{
+	display: block;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#content img{
+	max-width: 100%;
+	height: auto;
+}
+
+#content h2{
+	padding-bottom: 5px;
+}
+
+.inner-wrapper-1, .inner-wrapper-2, .inner-wrapper-3, .inner-wrapper-4{
+	margin-bottom: 40px;
+}
+
+#content .inner-wrapper-1 p{
+	font-size: 18px;
+}
+
+#content .inner-wrapper-1 h2{
+	font-size: 25px;
+}
+
+#content .inner-wrapper-2 p{
+	font-size: 16px;
+}
+
+#content .inner-wrapper-2 h2{
+	font-size: 22px;
+}
+
+#content .inner-wrapper-3 p{
+	font-size: 16px;
+}
+
+#content .inner-wrapper-3 h2{
+	font-size: 22px;
+}
+
+#content .inner-wrapper-4 p{
+	font-size: 16px;
+}
+
+#content .inner-wrapper-4 h2{
+	font-size: 22px;
+}
+
+#web-design-info{
+	width: 50%;
+	float: left;
+	margin-top: 140px;
+	line-height: 1.6;
+}
+
+#web-design-img{
+	width: 40%;
+	float: right;
+}
+
+#digital-marketing-img{
+	width: 40%;
+	float: left;
+}
+
+#digital-marketing-info{
+	width: 55%;
+	float: right;
+	margin-top: 140px;
+	line-height: 1.6;
+}
+
+#seo-info{
+	width: 50%;
+	float: left;
+	margin-top: 140px;
+	line-height: 1.6;
+}
+
+#seo-img{
+	width: 40%;
+	float: right;
+}
+
+#quote{
+	display: block;
+	width: 70%;
+	text-align: center;
+	font-size: 30px;
+	margin: 50px auto;
+}
+
+#awards-img{
+	width: 50%;
+	float: left;
+}
+
+
+#awards-info{
+	width: 50%;
+	float: right;
+	margin-top: 140px;
+	line-height: 1.6;
+}
+
+/************ page ABOUT (mission) **************/
+
+
+#content #mission{
+	width: 100%;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 22px;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#content #mission h1{
+	padding-top: 60px;
+	padding-bottom: 20px;
+	text-decoration: underline;
+
+}
+
+#content #mission h2{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-decoration: underline;
+}
+
+#content #mission p{
+	padding-bottom: 60px;
+}
+
+/************** page ABOUT (crew) *************/
+
+#content #crew{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#content #crew h2{
+	font-size: 30px;
+	line-height: 1.6;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	padding-top: 50px;
+	text-decoration: underline;
+
+}
+
+#content #crew img{
+	border-radius: 100%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#card1{
+	display: block;
+	float: left;
+	width: 45%;
+	padding-bottom: 20px;
+}
+
+#card2{
+	display: block;
+	float: right;
+	width: 45%;
+	padding-bottom: 20px;
+}
+
+#card3{
+	display: block;
+	float: left;
+	width: 45%;
+	padding-bottom: 20px;
+}
+
+#card4{
+	display: block;
+	float: right;
+	width: 45%;
+	padding-bottom: 20px;
+}
+
+
+
+/**************** page ABOUT (lokacije i mapa) *******************/
+
+#content #location{
+	margin-top: 20px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+#content #location h2{
+	text-decoration: underline;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+#content #location #addresses h3{
+	padding-bottom: 30px;
+}
+
+#content #location #addresses a{
+	color: #000;
+	margin-bottom: 15px;
+}
+
+#content #location #addresses a:hover{
+	color: blue;
+}
+
+#content #location #addresses p{
+	padding-top: 15px;
+}
+
+#content #location #addresses{
+	display: block;
+	float: left;
+	width: 30%;
+	padding-left: 20px;
+}
+
+#content #location #map{
+	display: block;
+	float: right;
+	width: 70%;
+}
+
+
+/********************* pageFooter **********************/
+
+#pageFooter{
+	background-color: #000;
+	color: #fff;
+}
+
+#pageFooter .footer-top{
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+	font-weight: bold;
+}
+
+#pageFooter ul{
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	border-bottom: 1px solid #fff;
+}
+
+#pageFooter li{
+	display: inline;
+	padding: 40px;
+}
+
+#pageFooter a{
+	color: #fff;
+	font-size: 30px;
+}
+
+#pageFooter #page-info{
+	text-align: center;
+	padding: 20px;
+}	
+
+
+
+/***************** page SERVICES *****************/
+
+#pricing{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+} 
+
+#pricing h1{
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#pricing #main-col{
+	display: block;
+	float: left;
+	width: 45%;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#pricing #main-col .services li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 8px;
+	background: #d3d3d3;
+}
+
+#pricing #sub-col{
+	display: block;
+	float: right;
+	width: 45%;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#pricing #sub-col .services li{
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 8px;
+	background: #d3d3d3;
+}
+
+/************** CONTACT page (tekst) *******************/
+
+#contact-content{
+	display: block;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+#contact{
+	max-width: 1200px;
+	width: 100%;
+	text-align: center;
+	line-height: 1.6;
+	margin: 0 auto;
+}
+
+#contact h1{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+
+#contact p{
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+#form input{
+	display: block;
+	margin: 25px auto;
+	width: 45%;
+	padding: 22px;
+	border: none;
+	border-bottom: 2px solid #000;
+	outline: none;
+}
+
+#form #msg{
+	display: block;
+	margin: 25px auto;
+	width: 45%;
+	height: 100px;
+	padding: 18px;
+	border: none;
+	border-bottom: 2px solid #000;
+	outline: none;
+}
+
+
+#contact-content #contact-submit button{
+	display: block;
+	margin: 45px auto;
+	padding: 18px;
+	font-size: 18px;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+	background-color: #000;
+	color: #fff;
+}
+
+/************* MEDIA ***************/
+
+@media (max-width: 768px){
+
+	/** NAVIGACIJA **/
+	
+	#nav-top #branding{
+		float: left;
+		width:50%;
+	}
+
+	.menu-icon{
+		width:50%;
+		display:block;
+		float: right;
+		font-size: 20px;
+	}
+
+	#nav-top ul.showing{
+		display:block;
+		max-height: 150px;
+		margin: 0 auto;
+		overflow: hidden;
+		width: 100%;
+	}
+
+/* +++ */
+
+	#nav-top ul{
+		float: none;
+		display: none;
+	}
+
+	#nav-top li{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 5px auto;
+		padding: 5px;
+		box-sizing: border-box;
+		border: 1px solid #fff;
+	}
+
+
+	#nav-top li a:hover{
+		border: none;
+	}
+
+	#nav-top .current a{
+		border: none;
+	}
+
+	/** end NAVIGACIJA **/
+
+	#pageHeader h1{
+		font-size: 25px;
+	}
+
+	#pageHeader p{
+		font-size: 18px;
+	}
+
+	#pageHeader a{
+		width: 35%;
+		font-size: 15px;
+	}
+
+	#newsletter h1{
+		float: none;
+		width: 100%;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#newsletter form{
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	#newsletter .button_1{
+		float: none;
+		width: 50%;
+		margin-top: 10px;
+	}
+
+	#digital-marketing-img{
+		display: none;
+	}
+
+	#web-design-info,
+	#web-design-img,
+	#digital-marketing-img,
+	#digital-marketing-info,
+	#seo-info,
+	#seo-img,
+	#awards-img,
+	#awards-info{
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#pageFooter li{
+		padding: 15px;
+	}
+
+	/** about **/
+	
+	#content #mission{
+		font-size: 18px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#content #mission h1{
+		padding-top: 10px;
+		padding-bottom: 15px;
+
+	}
+
+	#content #mission h2{
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+
+	#content #mission p{
+		padding-bottom: 5px;
+	}
+
+	/** crew **/
+	
+	#content #crew h2{
+		margin-bottom: 15px;
+		padding-top: 10px;
+	}
+
+	#card1, #card2, #card3, #card4{
+		float: none;
+		width: 100%;
+		border-bottom: 1px solid #000;
+	}
+
+	/** lokacija + adrese **/
+	
+	#content #location #addresses{
+		
+		float: none;
+		width: 100%;
+		padding-left: 20px;
+	}
+
+	#content #location #map{
+		float: none;
+		width: 100%;
+	}
+
+	#content #location h2{
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+
+	#content #location #map{
+		margin-top: 20px;
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+	}
+	
+
+	#form input{
+		width: 80%;
+	}
+
+	#form #msg{
+		width: 80%;
+	}
+
+	/** contact button **/
+
+	#contact-content #contact-submit button{
+		padding: 12px;
+
+	}
+}
+@media (max-width: 399px){
+	
+	#pricing h2{
+		font-size: 18px;
+	}
+
+	#pricing h3{
+		font-size: 13px;
+	}
+
+	#pageHeader a{
+		width: 35%;
+		font-size: 13px;
+	}
+
+	#digital-marketing-img{
+		display: none;
+	}
+	
+}
